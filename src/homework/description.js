@@ -1,17 +1,21 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 
 
-class Description extends Component{
-   constructor(props){
-       super(props)
-   }
-     render(){
-         return(
-             <div>{this.props.description} </div>
-         )
-     }
-    
+
+class Description extends Component {
+   
+    render(){
+        return(
+            <div>
+              {this.props.nkaragrutyun}
+            </div>
+            
+         
+        )
+    }
+
+
 
 }
 

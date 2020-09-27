@@ -1,20 +1,19 @@
-import React, {Component} from 'react';
+import React, { Component }  from 'react';
+import Product from './product';
 
 
+class Price extends Component {
+  
+    render(){
+        return(
+            <div>
+        {this.props.gin}
+            </div>
+           
+        )
+    }
 
-class Price extends Component{
- 
-   constructor(props){
-       super(props)
-      
-   }
-   
-     render(){
-         return(
-             <div>{this.props.price} </div>
-         )
-     }
-    
+
 
 }
 

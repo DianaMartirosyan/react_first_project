@@ -7,16 +7,20 @@ import Product from './homework/product';
 
 
 
+
+
 function App() {
 
   return (
     <div className="App">
     
-     <Product name="banana" price="10$" description="Fresh banana" />
+    
   
-   
-     
   
+   <Product name="banana" price="10$" description="Fresh banana" />
+  
+  
+      
     
     </div>
   );
