@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-    import Product from './product';
+   
 
 
 
@@ -10,7 +10,7 @@ class Name extends Component {
       
         return(
           <div>
-        {this.props.anun}
+        {this.props.name}
           </div> 
         )
     }

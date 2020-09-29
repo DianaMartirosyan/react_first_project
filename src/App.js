@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from './homework/product';
+import Price from './homework5/Price'
 
 
 
@@ -13,11 +13,15 @@ function App() {
 
   return (
     <div className="App">
+  
+ 
+    <Price
+   defaultValue = {1}
+    currency = "USD"
     
-    
+    />
   
   
-   <Product name="banana" price="10$" description="Fresh banana" />
   
   
       

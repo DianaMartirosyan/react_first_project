@@ -8,7 +8,7 @@ class Description extends Component {
     render(){
         return(
             <div>
-              {this.props.nkaragrutyun}
+              {this.props.description}
             </div>
             
          
