@@ -7,6 +7,7 @@ class Price extends Component {
         price:this.props.defaultValue, 
         currency: this.props.currency
     }
+    
 
     handleClick  = () =>{
        
@@ -19,7 +20,9 @@ class Price extends Component {
       
     }
 
+    
 
+    
     render(){
         
         return(

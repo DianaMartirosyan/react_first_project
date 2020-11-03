@@ -1,10 +1,5 @@
-import React from 'react';
-import Price from './homework5/Price'
-
-
-
-
-
+import React, { Component } from 'react';
+import ToDo from './components/ToDo';
 
 
 
@@ -14,18 +9,8 @@ function App() {
   return (
     <div className="App">
   
- 
-    <Price
-   defaultValue = {1}
-    currency = "USD"
-    
-    />
-  
-  
-  
-  
-      
-    
+  <ToDo/>
+
     </div>
   );
 }
