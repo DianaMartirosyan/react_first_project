@@ -1,0 +1,12 @@
+.selected {
+    border: 1px solid red !important;
+}
+
+.deleteButton {
+ margin: 5px;
+} 
+
+.titleStyle {
+    font-style: italic;
+    font-weight: bold;
+} 

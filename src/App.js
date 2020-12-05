@@ -4,12 +4,18 @@ import ToDo from './components/ToDo';
 
 
 
-function App() {
 
+
+
+function App() {
   return (
     <div className="App">
-  
-  <ToDo/>
+    
+
+      <ToDo />
+      
+     
+      
 
     </div>
   );

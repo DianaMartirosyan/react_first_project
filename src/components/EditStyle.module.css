@@ -1,0 +1,20 @@
+.inputStyle {
+    width: 100%;
+    border:dashed darkred;
+    border-radius: 25px;
+
+}
+.closeStyle{
+    border-radius: 25px;
+    background-color: black;
+
+}
+
+
+
+
+.saveStyle{
+    border-radius: 25px;
+    background-color: darkred;
+    
+}
